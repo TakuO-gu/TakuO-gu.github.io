@@ -1,0 +1,47 @@
+.fadeUpTrigger {
+  opacity: 0;
+}
+
+.fadeUp {
+  animation-name: fadeUpAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* アニメーションスタートの遅延時間を決めるCSS*/
+
+.delay-time01 {
+  animation-delay: 0.1s;
+}
+
+.delay-time02 {
+  animation-delay: 0.2s;
+}
+
+.delay-time03 {
+  animation-delay: 0.3s;
+}
+
+.delay-time04 {
+  animation-delay: 0.4s;
+}
+/*==================================================
+  スタート時は要素自体を透過0にするためのopacity:0;を指定する
+  ===================================*/
+
+.box {
+  opacity: 0;
+}
