@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Scroll to the clicked image only if it is in fullscreen mode
       if (thumbnail.classList.contains('fullscreen')) {
-        thumbnail.scrollIntoView({ behavior: 'smooth', block: 'nearest'});
+        thumbnail.scrollIntoView({ behavior: 'smooth', block: 'start'});
       }
     });
   });
