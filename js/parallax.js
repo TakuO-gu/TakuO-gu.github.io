@@ -18,7 +18,7 @@ function adjustObjectPosition() {
     if (inView) {
       const scrollPosition = rect.top / window.innerHeight;
       const newPosition = 40 + (scrollPosition * 15); // Modify this line
-      img.style.objectPosition = `100% ${newPosition}%`;
+      img.style.objectPosition = `50% ${newPosition}%`;
     }
   });
 }
